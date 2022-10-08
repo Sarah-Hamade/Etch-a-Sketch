@@ -17,6 +17,9 @@ function grid(gridSize) {
 }
 grid(16);
 
+
+// Functions
+
 // Function for mouseover effect
 function mouseOver() {
   if (color == 'white'){
@@ -45,6 +48,9 @@ function resetGrid(){
       container.removeChild(container.firstChild);
   }
 }
+
+
+// EventListener
 
 // Add eventListener for grid size buttons
 let gridSize = document.querySelectorAll('.buttons button');
